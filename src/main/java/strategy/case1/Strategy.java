@@ -1,4 +1,4 @@
-package strategy;
+package strategy.case1;
 
 public interface Strategy {
     // encrypt

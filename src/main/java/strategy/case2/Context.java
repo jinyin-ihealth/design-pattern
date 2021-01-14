@@ -1,4 +1,6 @@
-package strategy;
+package strategy.case2;
+
+import java.sql.Connection;
 
 public class Context {
     private Strategy strategy;
@@ -6,7 +8,7 @@ public class Context {
         this.strategy = strategy;
     }
 
-    public void encrypt(){
-        this.strategy.encrypt();
+    public double cost(double num){
+        return this.strategy.cost(num);
     }
 }

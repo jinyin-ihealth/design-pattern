@@ -1,4 +1,4 @@
-package strategy;
+package strategy.case1;
 
 public class MD5Strategy implements Strategy {
     @Override
