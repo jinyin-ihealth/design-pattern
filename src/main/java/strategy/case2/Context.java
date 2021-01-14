@@ -1,7 +1,5 @@
 package strategy.case2;
 
-import java.sql.Connection;
-
 public class Context {
     private Strategy strategy;
     public Context(Strategy strategy){
